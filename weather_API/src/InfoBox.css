@@ -1,0 +1,43 @@
+.InfoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.cardContainer:hover {
+  transform: scale(1.03) rotateY(2deg);
+  box-shadow: 0 20px 35px rgba(76, 175, 80, 0.4);
+}
+
+.MuiCard-root {
+  background: #ffffff;
+  border: 2px solid #a5d6a7;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(80, 160, 80, 0.3);
+}
+
+.MuiCardContent-root {
+  color: #2e7d32;
+}
+
+.MuiTypography-h5 {
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.6rem;
+  color: #33691e;
+}
+
+.MuiTypography-body2 {
+  font-size: 1rem;
+  color: #4e944f;
+}

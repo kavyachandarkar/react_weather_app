@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Neue', 'Segoe UI', cursive, sans-serif;
+  background: linear-gradient(135deg, #e1fce1, #b2f7c7);
+  color: #2e4739;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
